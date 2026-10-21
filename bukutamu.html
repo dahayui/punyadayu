@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu</title>
+</head>
+<body bgcolor="#FAF3E0">
+
+    <br><br>
+
+    <table width="1000px" align="center" border="0"
+           cellpadding="0" cellspacing="0" bgcolor="#FFFCF5">
+
+        
+        <!-- HEADER DAN NAVBAR -->
+        <tr bgcolor="#790D16">
+            <td colspan="6">
+                <table width="100%" border="0"
+                       cellpadding="10" cellspacing="0">
+                    <tr>
+                        <!-- JUDUL WEBSITE -->
+                        <td width="27%" align="left" nowrap>
+                            <font face="Georgia" color="#FAF3E0" size="5">
+                                <b>Serambi Senandika</b>
+                            </font>
+                        </td>
+
+                        <!-- MENU BERANDA -->
+                        <td width="14.6%" align="center" nowrap>
+                            <font face="Georgia" size="4">
+                                <a href="index.html">
+                                    <font color="#FAF3E0">Beranda</font>
+                                </a>
+                            </font>
+                        </td>
+
+                        <!-- MENU TENTANG DIRIKU -->
+                        <td width="14.6%" align="center" nowrap>
+                            <font face="Georgia" size="4">
+                                <a href="tentangku.html">
+                                    <font color="#FAF3E0">Tentang Diriku</font>
+                                </a>
+                            </font>
+                        </td>
+
+                        <!-- MENU ARTIKEL -->
+                        <td width="14.6%" align="center" nowrap>
+                            <font face="Georgia" size="4">
+                                <a href="artikel.html">
+                                    <font color="#FAF3E0">Artikel</font>
+                                </a>
+                            </font>
+                        </td>
+
+                        <!-- MENU ARSIP KENANGAN -->
+                        <td width="14.6%" align="center" nowrap>
+                            <font face="Georgia" size="4">
+                                <a href="arsipkenangan.html">
+                                    <font color="#FAF3E0">Kenangan</font>
+                                </a>
+                            </font>
+                        </td>
+
+                        <!-- MENU BUKU TAMU -->
+                        <td width="14.6%" align="center" nowrap bgcolor="60241E">
+                            <font face="Georgia" size="4">
+                                <a href="bukutamu.html">
+                                    <font color="#FAF3E0">Buku Tamu</font>
+                                </a>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+     <table width="900px" align="center" border="0"
+           cellpadding="0" cellspacing="0" bgcolor="#FFFCF5">
+
+           <br><br>
+    <form action="forminputeks.html" method="get" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Jejak Persinggahan</legend>
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" maxlength="100" required>
+            </p>
+
+            <p>
+                <label for="username">Nama:</label>
+                <input type="text" name="username" id="username" maxlength="10" required>
+            </p>
+
+            <p>
+                <label>Jenis Kelamin:</label>
+                <br>
+                <input type="radio" name="jenis_kelamin" value="laki-laki">Laki-laki
+                <br>
+                <input type="radio" name="jenis_kelamin" value="perempuan">Perempuan
+            </p>
+
+            <p>
+                <label for="Kesan" valign="top">Kesan untuk laman ini:</label>
+                <textarea name="kesan" id="kesan" rows="4" cols="50" required>
+                    Tuliskan kesan kamu terhadap laman ini di sini. 
+                </textarea>
+            </p>
+           
+            <p>
+                <input type="kirim" name="btn" id="kirim" value="kirim">
+                <input type="urung" name="btn" id="urung" value="urung">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
